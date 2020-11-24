@@ -53,3 +53,12 @@ const fourth: Area = {
 };
 
 fourth.getArea();
+
+interface Styles {
+    [key: string]: string
+}
+
+const wrapper: Styles = {
+    "borderRadius": "5px",
+    "margin": '50px'
+};
